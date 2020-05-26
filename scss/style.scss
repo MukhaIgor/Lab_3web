@@ -1,0 +1,14 @@
+@import "variables";
+.larger {
+  ul {
+    color: $colort;
+  }
+}
+@mixin font {
+  font-size: large;
+  font-weight: bold;
+  color: violet;
+}
+a {
+  @include font;
+}
